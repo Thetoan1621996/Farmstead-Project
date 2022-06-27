@@ -16,6 +16,11 @@ a{
     text-decoration: none;
 }
         /* HEADER */
+.header{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+} 
  .header__row{
     display: flex;
     justify-content: space-between;
