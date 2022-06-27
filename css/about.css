@@ -7,3 +7,89 @@ html{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+}
+        /* HEADER */
+ .header__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .header__row .logo{
+    position: relative;
+    margin: 20px 0;
+ }
+ .header__row .logo i{
+    position: absolute;
+    top: -5px;
+    right: 90px;
+    font-size: 20px;
+    color: #fb811e;
+    transition: all .5s;
+ }
+ .header__row .logo:hover i{
+    color: black;
+ }
+ .header__row .logo a{
+    font-size: 32px;
+    color:#fb811e;
+    font-family: 'Volkhov', serif;
+    transition: all .5s;
+ }
+ .header__row .logo:hover a{
+    color: black;
+ }
+ .navbar form{
+    display: inline-block;
+ }
+.header__row .navbar a{
+    color: black;
+    font-size: 18px;
+    margin-right: 15px;
+    transition: all .5s;
+}
+.header__row .navbar .active{
+    color: #fb811e;
+}
+.header__row .navbar a:hover{
+    color: #fb811e;
+}
+.header form input{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../image/search.png);
+    background-repeat: no-repeat;
+    background-position:9px center ;
+    transition: all .5s;
+    margin-right: 10px;
+}
+.header form input:hover{
+    background-color: #fb811e;
+}
+.header form input:focus{
+    width: 200px;
+    border-radius: 20px;
+    padding-left: 30px;
+    background-color: #fb811e;
+}
+.header form .moon{
+    transform: rotate(-30deg);
+    font-size: 20px;
+    transition: all .5s;
+}
+.header form .moon:hover{
+    color: #fb811e;
+}
+.header form .bars{
+    font-size: 20px;
+    display: none;
+}
+
