@@ -98,3 +98,41 @@ a{
     font-size: 20px;
     display: none;
 }
+/* CAROUSEL */
+.carousel__all{
+    display: flex; 
+    position: relative; 
+}
+.carousel__left{
+    position: absolute;
+    top: 160px;
+    left: 160px ;
+    padding-left: 15px;
+    width: 50%;
+}
+.carousel__left h2{
+    font-size: 120px;
+    font-weight: bold;
+    color:#f4f4f4;
+    font-family: 'Volkhov', serif ;
+    margin-left: -65px;
+}
+.carousel__left h3{
+    font-size: 50px;
+    font-family: 'Volkhov', serif;
+    margin-bottom: 24px;
+}
+.carousel__left p{
+    font-size: 20px;
+    color: #707070;
+}
+.carousel__left a{
+    background-color: #fb811e;
+    color: white;
+    display: inline-block;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    line-height: 26px;
+    margin-top: 48px ;
+}
