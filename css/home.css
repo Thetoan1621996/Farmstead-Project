@@ -346,3 +346,77 @@ h2, h3, h4{
     font-size: 17px;
     color: #707070;
 }
+
+/* REASON */
+.reason{
+    padding: 100px 0;
+}
+.reason__row{
+    display: flex;
+    align-items: center;
+}
+.reason__content{
+    width: 50%;
+    /* padding-right: 10px; */
+}
+.reason__content h4{
+    font-size: 22px;
+    color: #fb811e;
+}
+.reason__content h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: black;
+}
+.reason__content p{
+    font-size: 17px;
+    margin-top: 16px;
+    color: #707070;
+}
+.advantage{
+    display: flex;
+    margin-top: 80px ;
+}
+.advantage h3{
+    font-size: 24px;
+    color: #060606;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.advantage i{
+    color: #fb811e;
+    font-size: 30px;
+}
+.advantage p{
+    margin-left: 40px;
+}
+.reason__main{
+    width: 50%;
+    padding-left: 100px;
+    position: relative;
+}
+.reason__main img{
+    width: 100%;
+    border-radius: 30px;
+}
+.reason__main .experience{
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    text-align: center;
+    padding: 40px 50px 40px 60px;
+    background-color: #fb811e;
+    border-radius: 0 0 100px 0;
+}
+.reason__main .experience h2{
+    font-size: 70px;
+    color: white;
+    margin: 0;
+}
+.reason__main .experience p{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
