@@ -720,21 +720,22 @@ h2, h3, h4{
  }
  /* BACK TO TOP */
  .backToTop{
-    position: fixed;
-    bottom: 100px;
-    right: 15px;
-    z-index: 5;
     visibility: hidden;
     opacity: 0;
-    transition: all .5s;
  }
  .backToTop i{
     background-color: #009f4d;
     padding: 12px 15px;
     border-radius: 5px;
     color: white;
+    display: block;
+    transition: all .5s;
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    z-index: 5;
  }
- .backToTop:hover{
+ .backToTop i:hover{
     opacity: .8;
  }
  .cd-top--is-visible {
