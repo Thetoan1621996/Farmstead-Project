@@ -6,6 +6,7 @@
 html{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 .container{
     max-width: 1200px;
@@ -57,7 +58,7 @@ h2, h3, h4{
     display: inline-block;
  }
 .header__row .navbar a{
-    color: green;
+    color: black;
     font-size: 18px;
     margin-right: 15px;
     transition: all .5s;
@@ -500,6 +501,12 @@ h2, h3, h4{
 .gallery__txt a:hover{
     background-color: #009f4d;
 }
+.gallery__txt a:focus{
+    color: #fff;
+    background-color: #956fef;
+    border-color: #956fef;
+    box-shadow: 0 0 0 0.2rem rgb(102 16 242 / 35%);
+}
 .gallery__item{
     text-align: center;
     position: relative;
@@ -735,7 +742,7 @@ h2, h3, h4{
     right: 15px;
     z-index: 5;
  }
- .backToTop i:hover{
+ .backToTop:hover{
     opacity: .8;
  }
  .cd-top--is-visible {
