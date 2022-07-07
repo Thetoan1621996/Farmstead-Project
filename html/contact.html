@@ -23,6 +23,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="../css/contact.css" />
   </head>
@@ -36,12 +38,12 @@
             <i class="fa fa-leaf"></i>
           </div>
           <div class="navbar">
-            <a href="#" class="active">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">SERVICES</a>
-            <a href="#">LANDING PAGE</a>
-            <a href="#">404 PAGE</a>
-            <a href="#">CONTACT</a>
+            <a href="./home.html" class="active">HOME</a>
+            <a href="./about.html" target="_blank">ABOUT</a>
+            <a href="./services.html" target="_blank">SERVICES</a>
+            <a href="./landing.html" target="_blank">LANDING PAGE</a>
+            <a href="./404.html" target="_blank">404 PAGE</a>
+            <a href="./contact.html">CONTACT</a>
             <form action="#">
               <input type="search" name="search" />
               <i class="fa fa-moon moon"></i>
@@ -51,5 +53,124 @@
         </div>
       </div>
     </header>
+    <!-- LINKED -->
+    <section class="linked">
+        <div class="linked__row">
+          <div class="linked__left">
+            <h3>Contact us</h3>
+            <a href="./home.html">Home</a> <i class="fa fa-angle-double-right"></i> <span>Contact Page</span> 
+          </div>
+          <div class="linked__right">
+          </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="contact">
+      <div class="container">
+        <div class="contact__row">
+          <div class="contact__left">
+            <h3>Get in touch</h3>
+            <h2>Contact Us</h2>
+            <div class="contact__item">
+              <div class="contact__icon">
+                <i class="fa fa-globe-americas"></i>
+              </div>
+              <div class="contact__text">
+                <h4>Company Address</h4>
+                <p>10001, 5th Avenue, 12202 street, USA.</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="contact__text">
+                <h4>Call Us</h4>
+                <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon">
+                <i class="fa fa-envelope-open"></i>
+              </div>
+              <div class="contact__text">
+                <h4>Email Us</h4>
+                <a href="mailto:example@mail.com">example@mail.com</a>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon">
+                <i class="fa fa-headphones"></i>
+              </div>
+              <div class="contact__text">
+                <h4>Customer Support</h4>
+                <a href="mailto:info@support.com">info@support.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__right">
+            <form>
+              <input type="text" placeholder="Your Name*" required>
+              <input type="email" placeholder="Your Email*" required>
+              <input type="text" placeholder="Subject*" required>
+              <input type="text" placeholder="Website URL*" required>
+              <textarea cols="30" rows="5" placeholder="Type your message here*"></textarea>
+              <button type="submit">SEND MESSAGE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- POSITION -->
+    <section class="position">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.4733997047!2d-0.24168112896744046!3d51.5285582417414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2zTHXDom4gxJDDtG4sIFbGsMahbmcgUXXhu5FjIEFuaA!5e0!3m2!1svi!2s!4v1657167279026!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__item col-4">
+            <h3>FIND US</h3>
+            <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
+            <p>Phone: <a class="a1" href="tel:+12 23456790">+12 23456790</a></p>
+            <p>Mail: <a class="a1" href="mailto:info@example.com">info@example.com</a></p>
+            <p>Fax: <a class="a1" href="tel:+11 367 21890">+ 11 367 21890</a></p>
+          </div>
+          <div class="footer__item col-4">
+            <h4 class="logoChild">
+              <a class="a2" href="#">Farmstead <i class="fa fa-leaf"></i></a> 
+            </h4>
+            <p>Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.</p>
+            <p class="coppy">© 2022 Farmstead. All Rights Reserved | WordPress Theme by <a href="https://w3layouts.com/">W3Layouts.</a></p>
+          </div>
+          <div class="footer__item col-4 item3">
+            <h3>NEWSLETTER</h3>
+            <div class="form">
+              <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+              <form>
+                <input type="email" placeholder="Email Address" required>
+                <button><i class="fa fa-paper-plane"></i></button>
+              </form>
+            </div>
+            <div class="social">
+              <a href="https://www.facebook.com/w3layouts/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://in.linkedin.com/company/w3layouts"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://twitter.com/W3layouts"><i class="fab fa-twitter"></i></a>
+              <a href="https://w3layouts.com/tag/email-templates/"><i class="fab fa-google-plus-g"></i></a>
+              <a href="https://w3layouts.com/"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- BACK TO TOP -->
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+      <i class="fa fa-level-up-alt"></i>
+    </a> 
+     <!-- BOOTSTRAP JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- BACK TO TOP JS -->
+    <script src="../js/util.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
