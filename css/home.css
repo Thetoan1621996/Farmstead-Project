@@ -747,6 +747,220 @@ h2, h3, h4{
     visibility: visible;
     opacity: 1;
   }
+
+
+  /* RESPONSIVE */
+  @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 992px) {
+    .navbar a{
+        display: none;
+    }
+    .navbar form .bars, .navbar form .moon{
+        display: inline-block;
+    }
+    .navbar form .moon{
+        transform: rotate(-15deg);
+        color: black;
+    }
+    .carousel__left{
+        left: 80px;
+    }
+    .carousel__left h2{
+        font-size: 100px;
+    }
+    .carousel__left h3{
+        font-size: 40px;
+    }
+    .services__col h3{
+        font-size: 35px;
+    }
+    .services__content h2 {
+        top: -30%;
+        right: 10%;
+    }
+    .advantage {
+        margin-top: 30px;
+    }
+    .advantage i{
+        font-size: 20px;
+    }
+    .advantage h3{
+        font-size: 20px;
+    }
+    .reason__main .experience{
+        left: 40px;
+    }
+    .reason__content p {
+        font-size: 16px;
+    }
+    .reason__content h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .reason__main .experience{
+        padding: 25px 35px;
+        border-radius:0 0 50px 0;
+        bottom: 20px;
+    }
+    .reason__main .experience h2{
+        font-size: 50px;
+    }
+    .reason__main .experience p{
+        font-size: 16px ;
+    }
+    .blog img{
+        width: 70%;
+    }
+    .gallery__item img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery__txt a{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .gallery__txt h2 {
+        font-size: 25px;
+    }
+    .gallery__txt h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .client__comment{
+        padding: 0 50px 0 20px;
+    }
+    .client__comment p{
+        font-size: 16px;
+    }
+    .feedback__row {
+        padding: 50px;
+    }
+    .footer__item{
+        padding-left: 15px;
+    }
+    .footer__item .coppy{
+        margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+        .carousel__left h3{
+            font-size: 25px;
+        }
+        .carousel__left{
+            top: 50px;
+        }
+        .carousel__left p{
+            font-size: 18px;
+        }
+        .carousel__left a{
+            margin-top: 20px;
+        }
+        .naturally__content h2{
+            font-size: 30px;
+        }
+        .naturally__content a{
+            margin-top: 20px;
+        }
+        .naturally__item a{
+            font-size: 16px;
+        }
+        .services__content h2 {
+            font-size: 150px;
+            left: 50px;
+        }
+        .services__col h3{
+            font-size: 25px;
+        }
+        .services__col p {
+            font-size: 16px;
+        }
+        .services__text{
+            padding: 15px;
+            text-align: center;
+        }
+        .services__text a{
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .services__text p {
+            font-size: 15px;
+            margin: 0;
+        }
+        .reason__content h2{
+            font-size: 26px;
+            line-height: 35px;
+        }
+        .reason__main .experience{
+            padding: 15px 25px;
+            border-radius: 0 0 50px 0;
+            bottom: 15px;
+        }
+        .reason__main .experience h2 {
+            font-size: 50px;
+        }
+        .reason__main .experience p {
+            font-size: 16px;
+        }
+        .advantage {
+            margin-top: 30px;
+        }
+        .advantage h3{
+            font-size: 17px;
+        }
+        .advantage p{
+            font-size: 16px;
+        }
+        .blog__child img {
+            width: 40%;
+        }
+        .blog__txt p{
+            font-size: 16px;
+        }
+        .blog__col{
+            padding: 15px;
+        }
+        .gallery__txt, .gallery__item{
+            width: 50%;
+        }
+        .gallery__txt{
+            padding-top: 80px;
+            padding-right: 50px;
+        }
+        .feedback__row{
+            padding: 50px;
+        }
+        .client__info h3{
+            font-size: 15px;
+        }
+        .client__comment {
+            padding: 0 20px;
+        }
+        .footer__item .a1, .footer__item p{
+            font-size: 15px;
+        }
+        .footer__item .coppy {
+            margin-top: 20px;
+        }
+        .item3 input{
+            padding: 8px 20px;
+        }
+        .social{
+            margin-top: 30px;
+        }
+        .social a{
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            margin-right: 10px;
+        }
+        .item3 button{
+            font-size: 12px;
+        }
+        .item3 button i{
+            font-size: 12px;
+        }
+  }
   
 @keyframes gallery{
     100%{
