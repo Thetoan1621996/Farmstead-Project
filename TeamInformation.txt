@@ -1,0 +1,11 @@
+THÔNG TIN NHÓM:
+- Họ tên thành viên:
+ + Nguyễn Thế Toàn (Khởi tạo dự án)
+ + Nguyễn Tiến Thành (Tham gia vào dự án )
+- Bài tập đã chọn: Website số 3 (FARMSTEAD) 
+- Các phần đã làm:
+ + Theo thảo luận và phân chia từ đầu thì:
+   * Toàn làm phần HOME, LANDING PAGE VÀ CONTACT
+   * Thành làm phần ABOUT, SERVICES VÀ 404 PAGE
+   * Bỏ không làm hai phần BLOG POST và ELEMENT PAGE
+- Trong quá trình làm gần đến ngày nộp bài thì bạn Thành có liên hệ với mentor Khải và mình là đang gặp vấn đề về sức khỏe và tâm lí nên thời gian qua không làm bài được nên xin rút không làm bài tập nhóm nữa. Vì thời gian quá gấp rút và mình có vướng một số kế hoạch từ trước nên mình chỉ hoàn thành phần của mình, add thêm header cho ba page phần của Thành chứ không làm xong hết toàn bộ website được. Mình cũng đã hỏi mentor và mentor đã ok.

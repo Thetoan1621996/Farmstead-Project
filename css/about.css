@@ -97,4 +97,36 @@ a{
     font-size: 20px;
     display: none;
 }
+/*--------------- RESPONSIVE -----------------*/
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+  .navbar a {
+    display: none;
+  }
+  .navbar form .bars,
+  .navbar form .moon {
+    display: inline-block;
+  }
+  .navbar form .moon {
+    transform: rotate(-15deg);
+    color: black;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+  .header__row {
+    display: block;
+  }
+  .header__row .logo i {
+    top: -5px;
+    left: 55px;
+  }
+  .navbar {
+    margin-left: 50px;
+  }
+
+}
 
